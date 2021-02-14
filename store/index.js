@@ -10,7 +10,7 @@ export const state = () => ({
       menu: [
         {
           item: "Taco",
-          img: "taco-taco.jpg",
+          img: "photoimgs/taco-taco.jpg",
           price: 3.45,
           id: "e85dbacc-f721-44e6-af8c-eda2835e2e50",
           options: ["Al Pastor", "Carnitas", "Lengua", "Carne Asada", "Pollo"],
@@ -20,7 +20,7 @@ export const state = () => ({
         },
         {
           item: "Quesadilla",
-          img: "taco-quesadilla.png",
+          img: "photoimgs/taco-quesadilla.png",
           price: 7.0,
           id: "e956a779-941f-41ef-874e-d5f6a6c6e0cb",
           options: ["Plain", "Carne Asada", "Pollo"],
@@ -29,7 +29,7 @@ export const state = () => ({
         },
         {
           item: "Burrito",
-          img: "taco-burrito.jpg",
+          img: "photoimgs/taco-burrito.jpg",
           price: 6.59,
           id: "ecd7c207-acd7-4b58-8685-894ba622949e",
           options: ["Al Pastor", "Carnitas", "Lengua", "Carne Asada", "Pollo"],
@@ -48,7 +48,7 @@ export const state = () => ({
       menu: [
         {
           item: "Build Your Own",
-          img: "pizza-plain.jpg",
+          img: "photoimgs/pizza-plain.jpg",
           addOns: [
             "None",
             "Sausage",
@@ -65,7 +65,7 @@ export const state = () => ({
         },
         {
           item: "MeatLovers",
-          img: "pizza-meat.jpg",
+          img: "photoimgs/pizza-meat.jpg",
           price: 17.99,
           addOns: [
             "None",
@@ -83,7 +83,7 @@ export const state = () => ({
         },
         {
           item: "Veggie",
-          img: "pizza-veggie.jpg",
+          img: "photoimgs/pizza-veggie.jpg",
           price: 17.99,
           addOns: [
             "None",
@@ -110,7 +110,7 @@ export const state = () => ({
       menu: [
         {
           item: "Shrimp Dumplings",
-          img: "dimsum-shrimp.jpg",
+          img: "photoimgs/dimsum-shrimp.jpg",
           price: 6.49,
           addOns: [
             "None",
@@ -123,7 +123,7 @@ export const state = () => ({
         },
         {
           item: "Soup Dumplings",
-          img: "dimsum-soup.jpg",
+          img: "photoimgs/dimsum-soup.jpg",
           price: 9.99,
           addOns: [
             "None",
@@ -136,7 +136,7 @@ export const state = () => ({
         },
         {
           item: "Stuffed Eggplant",
-          img: "dimsum-eggplant.jpg",
+          img: "photoimgs/dimsum-eggplant.jpg",
           price: 5.59,
           addOns: [
             "None",
