@@ -10,10 +10,10 @@
 
       <div class="row">
         <div
-          :style="`background: url(/${menuitem.img}) no-repeat center center`"
-          class="items"
           v-for="menuitem in store.menu"
           :key="menuitem.id"
+          :style="`background: url(/${menuitem.img}) no-repeat center center`"
+          class="items"
         >
           <div class="iteminfo">
             <div>
