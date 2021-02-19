@@ -33,13 +33,17 @@
         </tbody>
       </table>
     </section>
+
+    <AppEmptyCart v-else />
   </main>
 </template>
 
 <script>
 import { mapState, mapGetters } from "vuex";
+import AppEmptyCart from "~/components/AppEmptyCart.vue";
 
 export default {
+  components: { AppEmptyCart },
   computed: {
     ...mapState(["cart"]),
     ...mapGetters(["totalPrice"]),
